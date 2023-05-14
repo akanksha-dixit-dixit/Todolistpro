@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+#container{
+    width: 100%;
+    max-width: 990px;
+    margin : 0 auto;
+}
+div#inside-container {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+input#inputbox {
+    width: 100%;
+    max-width: 253px;
+    padding: 9px 30px;
+}
+input#addbtn {
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+#newtask {
+    width: 100%;
+    float: left;
+    background-color: bisque;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+.task {
+    width: 100%;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+span#task-name {
+    float: left;
+    width: 50%;
+}
+button.Edit {
+    padding: 10px 24px;
+    font-size: 18px;
+}
+button.delete {
+    padding: 10px 21px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.modal {
+    display: none;
+}
+.show{
+    display: block;
+}
